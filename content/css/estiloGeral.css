@@ -1,0 +1,22 @@
+.navbar-custom{
+	background-color: #265C8A;
+}
+
+.subnavbar-custom{
+	background-color: #DEDEDE;
+}
+
+.card-custom{
+	background-color: #1678C2;
+}
+
+.btn-custom{
+	background-color: #265C8A;
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 30%;
+}
