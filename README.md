@@ -1,4 +1,4 @@
-# portalColaborativo
+# Sistema de Alvará
 
 Procedimentos:
 1. Importar o arquivo <b>banco.sql</b> do diretório <i>\banco</i> para o banco de dados utilizando a ferramenta <b>phpMyAdmin</b>
