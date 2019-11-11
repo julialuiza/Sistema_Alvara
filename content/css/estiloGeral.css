@@ -1,5 +1,6 @@
 .navbar-custom{
 	background-color: #265C8A;
+	font-color:white;
 }
 
 .subnavbar-custom{
@@ -14,9 +15,10 @@
 	background-color: #265C8A;
 }
 
-.card-img-top {
-    width: 100px;
-    height: 100px;
-    margin-top: 15%;
-    margin-left: 30%;
+.hr-custom{
+	border: 1px solid gray;
+}
+
+.custom-span{
+	color: red;
 }
