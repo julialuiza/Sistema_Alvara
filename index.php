@@ -31,7 +31,7 @@
               <div class="row">
                 <div class="col-lg-6 col-sm-12 p-3">
                   <div class="card card-custom">
-                    <img src="content/image/file.png" class="card-img-top mx-auto" alt="icone de cadastrar processo">
+                    <img src="content/image/file.png" class="card-img-top mx-auto mt-4" alt="icone de cadastrar processo" style="width: 150px;">
                     <div class="card-body"> 
                     </div>
                      <a href="view/cadastrar.php" class="btn btn-primary btn-block btn-custom">CADASTRAR PROCESSO</a>
@@ -40,7 +40,7 @@
 
                 <div class="col-lg-6 col-sm-12 p-3">
                   <div class="card card-custom">
-                    <img src="content/image/search.png" class="card-img-top mx-auto" alt="icone de consultar processo">
+                    <img src="content/image/search.png" class="card-img-top mx-auto mt-4" alt="icone de consultar processo" style="width: 150px;">
                     <div class="card-body">  
                     </div>
                     <a href="view/consultar.php" class="btn btn-primary btn-block btn-custom">CONSULTAR PROCESSO</a>
