@@ -101,7 +101,7 @@
 				<div class="form-group sacpj">
 					<label for="listaPJ">Nome Sacador 1 (Pessoa Jurídica): <span class="custom-span">*</span></label>
 					<select class="form-control" id="listaPJ" name="listaPJ">
-					  	<option  value="">Por favor, selecione um sacador PJ</option>
+					  	<option value="">Por favor, selecione um sacador PJ</option>
 					  	<?php
 					  		while($pj = mysqli_fetch_array($sacPJ)) { ?>
 					    <option value="<?php echo $pj['nome'] ?>"><?php echo $pj['nome'] ?></option>

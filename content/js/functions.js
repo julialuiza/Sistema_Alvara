@@ -1,17 +1,19 @@
 //funcoes para exibir sacadores PF ou PJ de acordo com selecao do radio button - 1 sacador
 $('.sacpf, .sacpj, .sacpj2').hide();           
 
-$('input[name="natSacador1"]').change(function () {
+$('input[name="natSacador1"]').click(function () {
     if ($('input[name="natSacador1"]:checked').val() === "pf") {
         $('.sacpf').show();
         $('.sacpj').hide();
+        $("#listaPJ1").val("")
     }
 });
 
-$('input[name="natSacador1"]').change(function () {
+$('input[name="natSacador1"]').click(function () {
     if ($('input[name="natSacador1"]:checked').val() === "pj") {
         $('.sacpj').show();
         $('.sacpf').hide();
+        $("#listaPF1").val("")
     }
 });
 

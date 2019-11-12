@@ -27,10 +27,10 @@
 	$dataCadastro = date('Y-m-d', time());
 
 	//verificacao do sacador 1 (pf ou pj)
-	if(isset($nomePF1)){
+	if($nomePF1 !=""){
 		$nomeSacador1 = $nomePF1;
 	}
-	else{
+	else if(isset($nomePJ1)){
 		$nomeSacador1 = $nomePJ1;
 	}
 
